@@ -13,3 +13,5 @@ uvicorn = "^0.34.3"
 sqlalchemy = "^2.0.41"
 pydantic = {extras = ["email"], version = "^2.11.7"}
 psycopg2-binary = "^2.9.10"
+python-jose = {extras = ["cryptography"], version = "^3.5.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
