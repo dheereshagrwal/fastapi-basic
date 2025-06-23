@@ -9,7 +9,7 @@ import os
 # Database configuration
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:Derek@3017#F@db.tqxpbgmcppexizgnnvzy.supabase.co:5432/postgres",
+    "postgresql://postgres:Iirw3LF9rWlEjh47@db.tqxpbgmcppexizgnnvzy.supabase.co:5432/postgres",
 )
 
 engine = create_engine(DATABASE_URL)
